@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "releaseYear": 1994
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "genre": "Crime",
+    "releaseYear": 1972
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "releaseYear": 2008
+  },
+  {
+    "id": 4,
+    "title": "Pulp Fiction",
+    "genre": "Crime",
+    "releaseYear": 1994
+  },
+  {
+    "id": 5,
+    "title": "Schindler's List",
+    "genre": "Biography",
+    "releaseYear": 1993
+  },
+  {
+    "id": 6,
+    "title": "The Lord of the Rings: The Return of the King",
+    "genre": "Adventure",
+    "releaseYear": 2003
+  },
+  {
+    "id": 7,
+    "title": "Forrest Gump",
+    "genre": "Drama",
+    "releaseYear": 1994
+  },
+  {
+    "id": 8,
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "releaseYear": 2010
+  },
+  {
+    "id": 9,
+    "title": "The Matrix",
+    "genre": "Action",
+    "releaseYear": 1999
+  },
+  {
+    "id": 10,
+    "title": "Titanic",
+    "genre": "Romance",
+    "releaseYear": 1997
+  },
+  {
+    "id": 11,
+    "title": "Fight Club",
+    "genre": "Drama",
+    "releaseYear": 1999
+  },
+  {
+    "id": 12,
+    "title": "The Silence of the Lambs",
+    "genre": "Crime",
+    "releaseYear": 1991
+  },
+  {
+    "id": 13,
+    "title": "Goodfellas",
+    "genre": "Biography",
+    "releaseYear": 1990
+  },
+  {
+    "id": 14,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "genre": "Adventure",
+    "releaseYear": 2001
+  },
+  {
+    "id": 15,
+    "title": "Saving Private Ryan",
+    "genre": "War",
+    "releaseYear": 1998
+  },
+  {
+    "id": 16,
+    "title": "The Green Mile",
+    "genre": "Drama",
+    "releaseYear": 1999
+  },
+  {
+    "id": 17,
+    "title": "The Godfather: Part II",
+    "genre": "Crime",
+    "releaseYear": 1974
+  },
+  {
+    "id": 18,
+    "title": "The Lord of the Rings: The Two Towers",
+    "genre": "Adventure",
+    "releaseYear": 2002
+  },
+  {
+    "id": 19,
+    "title": "Terminator 2: Judgment Day",
+    "genre": "Action",
+    "releaseYear": 1991
+  },
+  {
+    "id": 20,
+    "title": "Se7en",
+    "genre": "Crime",
+    "releaseYear": 1995
+  },
+  {
+    "id": 21,
+    "title": "The Shining",
+    "genre": "Horror",
+    "releaseYear": 1980
+  },
+  {
+    "id": 22,
+    "title": "The Pianist",
+    "genre": "Biography",
+    "releaseYear": 2002
+  },
+  {
+    "id": 23,
+    "title": "Gladiator",
+    "genre": "Action",
+    "releaseYear": 2000
+  },
+  {
+    "id": 24,
+    "title": "The Departed",
+    "genre": "Crime",
+    "releaseYear": 2006
+  },
+  {
+    "id": 25,
+    "title": "The Usual Suspects",
+    "genre": "Crime",
+    "releaseYear": 1995
+  },
+  {
+    "id": 26,
+    "title": "American History X",
+    "genre": "Drama",
+    "releaseYear": 1998
+  },
+  {
+    "id": 27,
+    "title": "The Lion King",
+    "genre": "Animation",
+    "releaseYear": 1994
+  },
+  {
+    "id": 28,
+    "title": "The Intouchables",
+    "genre": "Biography",
+    "releaseYear": 2011
+  },
+  {
+    "id": 29,
+    "title": "The Prestige",
+    "genre": "Drama",
+    "releaseYear": 2006
+  },
+    {
+      "id": 30,
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "releaseYear": 2014
+    },
+    {
+      "id": 31,
+      "title": "The Pursuit of Happyness",
+      "genre": "Biography",
+      "releaseYear": 2006
+    },
+    {
+      "id": 32,
+      "title": "The Wolf of Wall Street",
+      "genre": "Biography",
+      "releaseYear": 2013
+    },
+    {
+      "id": 33,
+      "title": "Gone with the Wind",
+      "genre": "Drama",
+      "releaseYear": 1939
+    },
+    {
+      "id": 34,
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "genre": "Action",
+      "releaseYear": 1980
+    },
+    {
+      "id": 35,
+      "title": "The Sixth Sense",
+      "genre": "Thriller",
+      "releaseYear": 1999
+    },
+    {
+      "id": 36,
+      "title": "The Matrix",
+      "genre": "Action",
+      "releaseYear": 1999
+    },
+    {
+      "id": 37,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "releaseYear": 1972
+    },
+    {
+      "id": 38,
+      "title": "The Green Mile",
+      "genre": "Drama",
+      "releaseYear": 1999
+    },
+    {
+      "id": 39,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "Adventure",
+      "releaseYear": 2001
+    },
+    {
+      "id": 40,
+      "title": "The Usual Suspects",
+      "genre": "Crime",
+      "releaseYear": 1995
+    },
+    {
+      "id": 41,
+      "title": "American History X",
+      "genre": "Drama",
+      "releaseYear": 1998
+    },
+    {
+      "id": 42,
+      "title": "The Lion King",
+      "genre": "Animation",
+      "releaseYear": 1994
+    },
+    {
+      "id": 43,
+      "title": "The Intouchables",
+      "genre": "Biography",
+      "releaseYear": 2011
+    },
+    {
+      "id": 44,
+      "title": "The Prestige",
+      "genre": "Drama",
+      "releaseYear": 2006
+    },
+    {
+      "id": 45,
+      "title": "The Pursuit of Happyness",
+      "genre": "Biography",
+      "releaseYear": 2006
+    },
+    {
+      "id": 46,
+      "title": "The Wolf of Wall Street",
+      "genre": "Biography",
+      "releaseYear": 2013
+    },
+    {
+      "id": 47,
+      "title": "Gone with the Wind",
+      "genre": "Drama",
+      "releaseYear": 1939
+    },
+    {
+      "id": 48,
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "genre": "Action",
+      "releaseYear": 1980
+    },
+    {
+      "id": 49,
+      "title": "The Sixth Sense",
+      "genre": "Thriller",
+      "releaseYear": 1999
+    },
+    {
+      "id": 50,
+      "title": "The Matrix",
+      "genre": "Action",
+      "releaseYear": 1999
+    },
+    {
+      "id": 51,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "releaseYear": 1994
+    },
+    {
+      "id": 52,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "releaseYear": 1972
+    },
+    {
+      "id": 53,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "releaseYear": 2008
+    },
+    {
+      "id": 54,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "releaseYear": 1994
+    },
+    {
+      "id": 55,
+      "title": "Schindler's List",
+      "genre": "Biography",
+      "releaseYear": 1993
+    },
+    {
+      "id": 56,
+      "title": "The Lord of the Rings: The Two Towers",
+      "genre": "Biography",
+      "releaseYear": 1993
+    }
+  ]
