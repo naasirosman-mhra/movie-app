@@ -7,8 +7,6 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/">Home</Link>
-      <Link to="/favorites">Favorites</Link>
-      {/* Add more navigation links as needed */}
     </nav>
   );
 };

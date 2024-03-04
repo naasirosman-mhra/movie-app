@@ -1,5 +1,3 @@
-// MovieList.js
-
 import React from 'react';
 import MovieCard from './MovieCard';
 
@@ -14,5 +12,4 @@ const MovieList = ({ movies }) => {
     </div>
   );
 };
-
 export default MovieList;

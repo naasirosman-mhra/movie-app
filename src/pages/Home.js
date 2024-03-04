@@ -8,6 +8,7 @@ const Home = () => {
   const [selectedGenre, setSelectedGenre] = useState('All');
   const [startYear, setStartYear] = useState(1990);
   const [endYear, setEndYear] = useState(2024);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     const fetchMovies = async () => {
@@ -35,22 +36,28 @@ const Home = () => {
   const handleGenreChange = (event) => {
     const genre = event.target.value;
     setSelectedGenre(genre);
-    filterMovies(genre, startYear, endYear);
+    filterMovies(genre, startYear, endYear, searchQuery);
   };
 
   const handleStartYearChange = (event) => {
     const year = parseInt(event.target.value);
     setStartYear(year);
-    filterMovies(selectedGenre, year, endYear);
+    filterMovies(selectedGenre, year, endYear, searchQuery);
   };
 
   const handleEndYearChange = (event) => {
     const year = parseInt(event.target.value);
     setEndYear(year);
-    filterMovies(selectedGenre, startYear, year);
+    filterMovies(selectedGenre, startYear, year, searchQuery);
   };
 
-  const filterMovies = (genre, startYear, endYear) => {
+  const handleSearchChange = (event) => {
+    const query = event.target.value;
+    setSearchQuery(query);
+    filterMovies(selectedGenre, startYear, endYear, query);
+  };
+
+  const filterMovies = (genre, startYear, endYear, query) => {
     let filtered = movies;
 
     if (genre !== 'All') {
@@ -58,6 +65,10 @@ const Home = () => {
     }
 
     filtered = filtered.filter(movie => movie.releaseYear >= startYear && movie.releaseYear <= endYear);
+
+    if (query) {
+      filtered = filtered.filter(movie => movie.title.toLowerCase().includes(query.toLowerCase()));
+    }
 
     setFilteredMovies(filtered);
   };
@@ -105,6 +116,10 @@ const Home = () => {
           onChange={handleEndYearChange}
         />
         <output>{endYear}</output>
+      </div>
+      <div>
+        <label htmlFor="search">Search:</label>
+        <input type="text" id="search" value={searchQuery} onChange={handleSearchChange} />
       </div>
       {filteredMovies.length === 0 ? (
         <p>No movies found.</p>

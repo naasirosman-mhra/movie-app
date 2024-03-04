@@ -1,5 +1,3 @@
-// MovieCard.js
-
 import React from 'react';
 
 const MovieCard = ({ movie }) => {
@@ -8,7 +6,6 @@ const MovieCard = ({ movie }) => {
       <h3>{movie.title}</h3>
       <p>{movie.genre}</p>
       <p>Release Year: {movie.releaseYear}</p>
-      {/* Add more movie details as needed */}
     </div>
   );
 };

@@ -16,7 +16,6 @@ const MovieDetail = () => {
       <h2>{movie.title}</h2>
       <p>Genre: {movie.genre}</p>
       <p>Release Year: {movie.releaseYear}</p>
-      {/* Add more movie details as needed */}
     </div>
   );
 };
